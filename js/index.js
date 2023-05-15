@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     M.Sidenav.init(sidenav);
     M.Materialbox.init(matbox);
     M.Carousel.init(car,{
-      fullWidth: true
+      fullWidth: true,
+      indicators: true,
+      duration: 500
     });
 
   });
