@@ -1,41 +1,18 @@
-main {
-    display: flex;
+body {
+    background-color: #e0e0e0;
 }
 
-.leftInfo {
-    background-color: #323b4c;
-    width: 30%;
-    height: 500px;
-
+.parallax img {
+    width: 100%;
 }
 
-.leftInfo h2{
-    color: white;
+.n1 {
     text-align: center;
-    font-size: 2.5vw;
 }
 
-.leftInfo img {
-    display: block;
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border-radius: 100%;
-    box-sizing: border-box;
-}
-
-.rightInfo {
-    width: 70%;
-    height: 100%;
-
-}
-
-.rightInfo h1 {
-    padding-left: 5%;
-    color: #323b4c;
-    font-family:  'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
-    letter-spacing: 7px;
-    font-size: 5vw;
+.float-barong {
+    float: left; 
+    margin-right: 10px; 
+    border: solid black 2px; 
+    padding: 5px;
 }
