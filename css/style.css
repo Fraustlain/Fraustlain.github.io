@@ -1,5 +1,5 @@
 body {
-    background-color: #e0e0e0;
+    background-color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -17,3 +17,31 @@ body {
     border: solid black 2px; 
     padding: 5px;
 }
+
+.tophead, .edu, .proj {
+    border-bottom: 3px solid black; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile {
+    border-bottom: 3px solid black;
+    padding-bottom: 25px;
+}
+
+li {
+    list-style-type: initial;
+}
+
+.schools {
+    font-size: larger;
+}
+
+
+
+
+/* h3 {
+    border-bottom: 3px black;
+    text-align: center;
+    font-weight: bold;
+} */
