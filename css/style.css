@@ -22,6 +22,7 @@ body {
     border-bottom: 3px solid black; 
     text-align: center;
     font-weight: bold;
+    border-top: 3px solid black;
 }
 
 .profile {
@@ -37,11 +38,55 @@ li {
     font-size: larger;
 }
 
+.card-image img {
+    opacity: 0.65 !important;
+    background-color: #212121;
+}
 
+.card-title {
+    font-weight: 600 !important;
+    padding-bottom: 0 !important;
+    
+}
 
+.card-content {
+    text-align: justify;
+}
 
-/* h3 {
-    border-bottom: 3px black;
+.fa {
+    padding: 20px;
+    font-size: 20px !important;
+    width: 60px;
     text-align: center;
-    font-weight: bold;
-} */
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-github {
+    background: #212121;
+    color: white;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
