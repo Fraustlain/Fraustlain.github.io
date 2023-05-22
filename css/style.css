@@ -18,7 +18,7 @@ body {
     padding: 5px;
 }
 
-.tophead, .edu, .proj {
+.tophead, .edu, .proj, .per, .cert {
     border-bottom: 3px solid black; 
     text-align: center;
     font-weight: bold;
@@ -34,7 +34,7 @@ li {
     list-style-type: initial;
 }
 
-.schools {
+.schools, .skills {
     font-size: larger;
 }
 
@@ -89,4 +89,8 @@ li {
 .material-icons{
     display: inline-flex;
     vertical-align: top;
+}
+
+.certificate {
+    border: 3px solid darkcyan ;
 }
