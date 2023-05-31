@@ -1,6 +1,7 @@
 body {
-    background-color: white;
+    background-color: #212529;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .parallax img {
@@ -14,19 +15,19 @@ body {
 .float-barong {
     float: left; 
     margin-right: 10px; 
-    border: solid black 2px; 
+    border: 2px solid white; 
     padding: 5px;
 }
 
 .tophead, .edu, .proj, .per, .cert {
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid white; 
     text-align: center;
     font-weight: bold;
-    border-top: 3px solid black;
+    border-top: 3px solid white;
 }
 
 .profile {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     padding-bottom: 25px;
 }
 
@@ -51,6 +52,7 @@ li {
 
 .card-content {
     text-align: justify;
+    color: black;
 }
 
 .fa {
@@ -94,3 +96,8 @@ li {
 .certificate {
     border: 3px solid darkcyan ;
 }
+
+.section {
+    padding-top: 0;
+}
+

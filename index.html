@@ -17,21 +17,47 @@
 
 
     <body>
-        <div class="section white">
+
+        
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">menu</i>
+          </a>
+          <ul>
+            <li><a href="#profile" class="btn-floating red tooltipped" data-position="left" data-tooltip="Profile"><i class="material-icons">person</i></a></li>
+            <li><a href="#personalSkill" class="btn-floating yellow darken-1 tooltipped" data-position="left" data-tooltip="Education"><i class="material-icons">school</i></a></li>
+            <li><a href="#education" class="btn-floating green tooltipped" data-position="left" data-tooltip="Personal Skills"><i class="material-icons">portrait</i></a></li>
+            <li><a href="#certificates" class="btn-floating blue tooltipped" data-position="left" data-tooltip="Certificates"><i class="material-icons">receipt</i></a></li>
+            <li><a href="#projects" class="btn-floating orange tooltipped" data-position="left" data-tooltip="Projects"><i class="material-icons">folder_shared</i></a></li>
+          </ul>
+        </div>
+      
+
+        <div class="section" id="profile">
           <div class="container">
             <h2 class="tophead">Angelo Rivera</h2>
           </div>
           
-            <div class="profile container valign-wrapper">
-              <img src="img/barong1.jpg"  class="float-barong hide-on-large-only responsive-img" width="50%">
-              <img src="img/barong1.jpg" class="float-barong hide-on-med-and-down responsive-img" width="25%">
-              <h4 class="center-align hide-on-med-and-down">Hi, I'm Angelo A. Rivera currently a graduating 4th year student who pursues 
-              the Bachelor of Science in Computer Science Program in Emilio Aguinaldo College - Cavite.</h4>
-              <h6 class="center-align hide-on-large-only">Hi, I'm Angelo A. Rivera currently a graduating 4th year student who pursues 
+            <div class="profile container valign-wrapper row">
+              <div class="col s4 m3">
+                <img src="img/barong1.jpg" data-caption="Angelo Rivera in a barong" class="float-barong hide-on-large-only responsive-img materialboxed">
+              <img src="img/barong1.jpg" data-caption="Angelo Rivera in a barong" class="float-barong hide-on-med-and-down responsive-img materialboxed">
+              </div>
+              <div class="col s8 m9">
+                <h4 class="center-align hide-on-med-and-down">Hi, I'm Angelo A. Rivera currently a graduating 4th year student who pursues 
+                the Bachelor of Science in Computer Science Program in Emilio Aguinaldo College - Cavite.</h4>
+                <h6 class="center-align hide-on-large-only">Hi, I'm Angelo A. Rivera currently a graduating 4th year student who pursues 
                 the Bachelor of Science in Computer Science Program in Emilio Aguinaldo College - Cavite.</h6>
+              </div>
+
 
             </div>
         </div>
+
+
+
+
+
 
         <div class="parallax-container hide-on-med-and-down">
             <div class="parallax"><img src="img/eac-bg.jpg"></div>
@@ -40,8 +66,8 @@
             <div class="parallax"><img src="img/eac-bg.jpg"></div>
         </div>
 
-        <div class="section">
-            <div style="border-bottom: 3px solid black;" class="row container">
+        <div class="section" id="education">
+            <div style="border-bottom: 3px solid white;" class="row container">
               <h3 class="edu hide-on-med-and-down col s12">Education</h3>
               <h4 class="edu hide-on-large-only col s12">Education</h4>
 
@@ -67,8 +93,8 @@
         </div>
 
 
-        <div class="section">
-          <div style="border-bottom: 3px solid black;" class="row container">
+        <div class="section" id="personalSkill">
+          <div style="border-bottom: 3px solid white;" class="row container">
             <h3 class="per hide-on-med-and-down col s12">Personal Skills</h3>
             <h4 class="per hide-on-large-only col s12">Personal Skills</h4>
 
@@ -92,8 +118,8 @@
         </div>
 
 
-        <div class="section">
-          <div style="border-bottom: 3px solid black;" class="row container">
+        <div class="section" id="certificates">
+          <div style="border-bottom: 3px solid white;" class="row container">
             <h3 class="cert hide-on-med-and-down col s12">Certificates</h3>
             <h4 class="cert hide-on-large-only col s12">Certificates</h4>
             
@@ -124,7 +150,7 @@
         </div>
 
 
-        <div class="section">
+        <div class="section" id="projects">
             <div class="row container">
               <h3 class="proj hide-on-med-and-down col s12">Projects</h3>
               <h4 class="proj hide-on-large-only col s12">Projects</h4>
@@ -189,7 +215,7 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text"><i class="material-icons yellow-text text-lighten-2">email</i> Email Us: </h5>
+                <h5 class="white-text"><i class="material-icons yellow-text text-lighten-2">email</i> Email Me: </h5>
                 <p class="grey-text text-lighten-4">a.aranasrivera@gmail.com</p>
               </div>
               <div class="col l4 offset-l2 s12">
