@@ -1,0 +1,117 @@
+body {
+    background-color: #212529;
+    color: white;
+}
+
+.parallax img {
+    width: 100%;
+    opacity: 0.65 !important;
+}
+
+.barong {
+    width: 30%;
+    display: block;
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    text-align: center;
+}
+
+.education {
+    text-align: center;
+}
+
+.profile > h1 {
+    font-size: 8vw;
+    margin-top: 0;
+    font-weight: 600;
+}
+.education > h2 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+.education > h3 {
+    font-size:  3vw;
+    font-weight: 300;
+}
+
+.profile > p {
+    font-size: 2vw;
+}
+
+.education > p {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.education > p {
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.college {
+    display: block;
+}
+
+.college h3 {
+    font-size:  3vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0;
+}
+.college p {
+    font-size:  2vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+.senior-high {
+    display: block;
+}
+
+.senior-high h3 {
+    font-size:  3vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0;
+}
+.senior-high p {
+    font-size:  2vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+.junior-high {
+    display: block;
+}
+
+.junior-high h3 {
+    font-size:  3vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0;
+}
+.junior-high p {
+    font-size:  2vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+.elementary {
+    display: block;
+}
+
+.elementary h3 {
+    font-size:  3vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0;
+}
+.elementary p {
+    font-size:  2vw;
+    font-weight: 300;
+    text-align: left;
+}
