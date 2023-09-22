@@ -119,3 +119,51 @@ h5 {
     font-size: 2vw;
 }
 
+@media only screen and (max-width: 992px) {
+    h2 {
+        font-size: 5.5vw;
+    }
+    
+    h3 {
+        font-size: 5vw;
+    }
+    
+    h4 {
+        font-size: 4.7vw;
+    }
+    
+    h5 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+    li {
+        font-size: 3vw;
+    }
+    
+  }
+
+
+
+/* START || MAKE SCROLLBAR DESIGN LIKE MOBILE */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
+/* END || MAKE SCROLLBAR DESIGN LIKE MOBILE */
