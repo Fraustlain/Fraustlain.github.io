@@ -120,6 +120,7 @@ h5 {
 }
 
 @media only screen and (max-width: 992px) {
+
     h2 {
         font-size: 5.5vw;
     }
@@ -139,7 +140,7 @@ h5 {
     p {
         font-size: 3vw;
     }
-    li {
+        li {
         font-size: 3vw;
     }
     

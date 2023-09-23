@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     M.Materialbox.init(document.querySelectorAll('.materialboxed'),{});
     M.FloatingActionButton.init(document.querySelectorAll('.fixed-action-btn'), {});
     M.Tooltip.init(document.querySelectorAll('.tooltipped'), {});
+    M.Modal.init(document.querySelectorAll('.modal'),{});
   });
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
