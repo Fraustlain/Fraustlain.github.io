@@ -3,11 +3,15 @@
   <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -16,15 +20,15 @@
     <li><div class="user-view">
       <div class="background">
         <!-- <img src="https://source.unsplash.com/user/c_v_r"> -->
-        <img src="media/coderain.gif">
+        <img src="https://i.pinimg.com/originals/cf/41/3e/cf413e4a7bd6b503ce7828fb6f7b7338.jpg" width="100%">
       </div>
-      <a href="#user"><img class="circle" src="media/barong.jpg"></a>
-      <a href="#name"><span class="white-text name">Angelo A. Rivera</span></a>
-      <a href="#email"><span class="white-text email">a.aranasrivera@gmail.com</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">home</i>First Link With Icon</a></li>
-    <li><a href="#!"><i class="material-icons">person</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+      <a href="#!"><img class="circle" src="media/barong.jpg"></a>
+      <a href="#!"><span class="white-text name">Angelo A. Rivera</span></a>
+      <a href="#!"><span class="white-text email">a.aranasrivera@gmail.com</span></a>
+      </div></li>
+    <li><a href="#homeID"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="#aboutID"><i class="material-icons">person</i>About Me</a></li>
+
     <li><div class="divider"></div></li>
     <li><a class="subheader">Subheader</a></li>
     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
@@ -32,7 +36,12 @@
 
 
 <main>
-  <section class="Home">
+    <!-- SECTION: HOME -->
+  <section id="homeID" class="Home">
+
+    <div class="HomeContent">
+
+      <!-- WATER TEXT: ANGELO -->
       <div class="waterContent">
         
         <div class="waterContent1">
@@ -40,39 +49,171 @@
           <h2>ANGELO</h2>
         </div>
       </div>
+
+
+      <!-- WATER TEXT: RIVERA -->
       <div class="waterContent2">
-        
         <div class="waterContent3">
           <h2>RIVERA</h2>
           <h2>RIVERA</h2>
         </div>
       </div>
-      <div class="slideContent">
-        <div class="slideText">
-          <span class="auto-type"></span>
-        </div>
+    </div>
+
+
+    <!-- AUTO-TYPE CONTENT -->
+    <div class="slideContent">
+      <div class="slideText">
+        <span class="auto-type"></span>
       </div>
 
+    </div>
 
   </section>
   
-  <section class="About"></section>
+
+  <!-- SECTION: ABOUT ME -->
+  <section id="aboutID" class="About">
+    <h1>ABOUT <span>ME</span></h1>
+    <br>
+    <div class="process-wrapper">
+      <div id="progress-bar-container">
+        <ul>
+          <li class="step step01 active"><div class="step-inner flow-text">PROFILE</div></li>
+          <li class="step step02"><div class="step-inner flow-text">EDUCATION</div></li>
+          <li class="step step03"><div class="step-inner flow-text">SKILLS</div></li>
+        </ul>
+        
+        <div id="line">
+          <div id="line-progress"></div>
+        </div>
+      </div>
+      
+      <div id="progress-content-section">
+        <div class="section-content discovery active">
+          <h2>PROFILE SECTION</h2>
+          <p>Hello, my name is Angelo A. Rivera, and I'm a 22-year-old computer science graduate of Emilio Aguinaldo College in Cavite. I want to increase my skills and become a professional web developer.</p>
+        </div>
+        
+        <div class="section-content strategy">
+          <h2>EDUCATIONAL BACKGROUND</h2>
+          <p>Emilio Aguinaldo College - Cavite<br><span>2019 - 2023</span></p>
+          <p>Tagaytay City Science National High School<br>Senior High School<br><span>2017 - 2019</span></p>
+          <p>Tagaytay City Science National High School<br>Junior High School<br><span>2013 - 2017</span></p>
+          <p>Tagaytay San Jose Elementary School<br><span>2007 - 2013</span></p>
+        </div>
+        
+        <div class="section-content creative">
+          <h2>PERSONAL SKILLS</h2>
+          <div class="row">
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Problem Solver</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Adopts Quickly</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Time Management</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Flexible</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Critical Thinker</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Team Player</h6>
+            </div>
+            <div class="col s12 m6 l6">
+              <h6 class="bullet"><i class="material-icons inline-icon">chevron_right</i>Fast Learner</h6>
+            </div>
+
+            
+          </div>
+        </div>
+          
+      </div>
+
+  </section>
 
 
-  <a class="menu-button btn-floating btn-large waves-effect waves-light red sidenav-trigger hide-on-large-only" data-target="slide-out"><i class="material-icons">menu</i></a>
+
+  
+  
+  <!-- SECTION: PROJECTS -->
+  <section class="Projects">
+    
+  </section>
+
+
+  <!-- FLOATING-BUTTON: MOBILE SIDENAV BUTTON -->
+  <a class="menu-button btn-floating btn-large waves-effect waves-light cyan pulse sidenav-trigger hide-on-large-only" data-target="slide-out"><i class="material-icons">menu</i></a>
+
+
+  <!-- FOOTER -->
+  <footer class="page-footer cyan darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contacts</h5>
+          <ul>
+            <a href="https://www.facebook.com/profile.php?id=100009596841575&mibextid=ZbWKwL" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/Fraustlain" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/channel/UC94_z7t-0nSm5_ngaVoRePQ" target="_blank" class="fa fa-youtube"></a>
+            <a href="https://github.com/Fraustlain" target="_blank" class="fa fa-github"></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>var typed = new Typed(".auto-type", {
-      strings: ["Web Developer", "UI/UX Designer", "Programmer"],
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+      var typed = new Typed('.auto-type', {
+      strings: ['Web Developer', 'UI/UX Designer','Programmer'],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true
-  })
-  </script>
-  </main>
+    });
+
+    $(".step").click( function() {
+	  $(this).addClass("active").prevAll().addClass("active");
+	  $(this).nextAll().removeClass("active");
+    });
+
+    $(".step01").click( function() {
+	  $("#line-progress").css("width", "9%");
+	  $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step02").click( function() {
+	  $("#line-progress").css("width", "50%");
+	  $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step03").click( function() {
+	  $("#line-progress").css("width", "100%");
+	  $(".creative").addClass("active").siblings().removeClass("active");
+    });
+    </script>
+    </main>
   </body>
 </html>
       
