@@ -1,2 +1,0 @@
-# AngeloPortfolio
-My portfolio

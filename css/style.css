@@ -13,9 +13,10 @@ body {
 }
 
 .float-barong {
-    float: left; 
-    height: 100%;
-    margin-right: 10px; 
+    height: 50%;
+    width: 50%;
+    margin-right: auto; 
+    margin-left: auto;
     border: 2px solid white; 
     padding: 5px;
 }
@@ -75,11 +76,6 @@ li {
     color: white;
 }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
 .fa-youtube {
     background: #bb0000;
     color: white;
@@ -87,6 +83,11 @@ li {
 
 .fa-github {
     background: #212121;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #55ACEE;
     color: white;
 }
 
