@@ -21,11 +21,15 @@ body {
     padding: 5px;
 }
 
-.tophead, .edu, .proj, .per, .cert {
+.tophead, .edu, .proj, .per, .cert, .ach {
     border-bottom: 3px solid white; 
     text-align: center;
     font-weight: bold;
     border-top: 3px solid white;
+}
+
+.ach-flex {
+    display:inline-flex;
 }
 
 .profile {
@@ -99,6 +103,23 @@ li {
 .certificate {
     border: 3px solid darkcyan ;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.awscp {
+    text-align: center;
+}
+
+.ach-text {
+    text-align: justify;
+    text-justify:newspaper;
+}
+
 
 .section {
     padding-top: 0;
